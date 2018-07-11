@@ -60,10 +60,13 @@
 - spatial units can't be subset without incurring unknown error (MAUP)
 
 
-## picture of single big opaque census tract on a satellite image
+## {data-background="images/tracts.png" data-background-size="contain"}
+
+## {data-background="images/tract_isolated.png" data-background-size="contain"}
+
+## {data-background="images/tract_translucent.png" data-background-size="contain"}
 
 
-## same tract but translucent, showing uneven development patterns underneath
 
 <!--(speaker explains point is that we can't naively assign statistics to arbitrary geographies, we need special tools to do that)
 
@@ -167,27 +170,27 @@ Current Art: Geodemographics
 
 ## Sequence Analysis
 
-#  {data-background="images/sequence_A.png" data-background-size="600px"}
+##  {data-background="images/sequence_A.png" data-background-size="600px"}
 
 <!-- arbitrary first sequence -->
 
-#  {data-background="images/sequence_B.png" data-background-size="600px"}
+##  {data-background="images/sequence_B.png" data-background-size="600px"}
 
 <!-- arbitrary second sequence -->
 
-#  {data-background="images/sequence_both.png" data-background-size="600px"}
+##  {data-background="images/sequence_both.png" data-background-size="600px"}
 
 <!-- aligned -->
 
-# {data-background="images/sequence_both_hamming.png" data-background-size="600px"}
+## {data-background="images/sequence_both_hamming.png" data-background-size="600px"}
 
 <!-- force-aligned -->
 
-# {data-background="images/sequence_both_aligned.png" data-background-size="600px"}
+## {data-background="images/sequence_both_aligned.png" data-background-size="600px"}
 
 <!-- optimal aligned -->
 
-# {data-background="images/sequence_both_aligned_annotated.png" data-background-size="600px"}
+## {data-background="images/sequence_both_aligned_annotated.png" data-background-size="600px"}
 
 <!-- annotated -->
 

@@ -3,23 +3,15 @@
 <head>
   <meta charset="utf-8">
   <meta name="generator" content="pandoc">
-  <title></title>
-  <meta name="apple-mobile-web-app-capable" content="yes">
-  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
-  <link rel="stylesheet" href="./reveal.js/css/reveal.css">
-  <style type="text/css">code{white-space: pre;}</style>
-  <link rel="stylesheet" href="./reveal.js/css/theme/black.css" id="theme">
-  <link rel="stylesheet" href="ek.css"/>
-  <link rel="stylesheet" href="bootstrap.min.css"/>
-  <!-- Printing and PDF exports -->
-  <script>
-    var link = document.createElement( 'link' );
-    link.rel = 'stylesheet';
-    link.type = 'text/css';
-    link.href = window.location.search.match( /print-pdf/gi ) ? './reveal.js/css/print/pdf.css' : './reveal.js/css/print/paper.css';
-    document.getElementsByTagName( 'head' )[0].appendChild( link );
-  </script>
+  <title>oslnap-scipy2018</title>
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <link rel="stylesheet" href="./reveal.js/css/reveal.min.css"/>
+    <style type="text/css">code{white-space: pre;}</style>
+    <link rel="stylesheet" href="ek.css"/>
+    <link rel="stylesheet" href="bootstrap.min.css"/>
+  <link rel="stylesheet" media="print" href="./reveal.js/css/print/pdf.css" />
   <!--[if lt IE 9]>
   <script src="./reveal.js/lib/js/html5shiv.js"></script>
   <![endif]-->
@@ -61,7 +53,7 @@ Spatio-temporal analysis of socioeconomic neighborhoods
 <h2>(Temporal) Neighborhood Analysis Challenging</h2>
 <ul>
 <li>what defines a neighborhood?</li>
-<li>&quot;neighborhoods&quot; change over time
+<li>“neighborhoods” change over time
 <ul>
 <li>compositionally</li>
 <li>geographically/geometrically</li>
@@ -87,17 +79,19 @@ Spatio-temporal analysis of socioeconomic neighborhoods
 <li>Visualization <!--(note that we're still working on this piece so wont be talking about it much)--></li>
 </ul>
 </section>
-<section><section id="data-module" class="titleslide slide level1"><h1>Data Module</h1></section><section id="data-module-1" class="slide level2">
+<section><section id="data-module" class="title-slide slide level1"><h1>Data Module</h1></section><section id="data-module-1" class="slide level2">
 <h2>Data Module</h2>
 <ul>
-<li>enumeration units for survey data (e.g. Census) change over time</li>
+<li>enumeration units for survey data (e.g. Census) change over time</li>
 <li>i.e., <strong>no consistent, stable unit</strong> to analyze over time</li>
-<li>spatial units can't be subset without incurring unknown error (MAUP)</li>
+<li>spatial units can’t be subset without incurring unknown error (MAUP)</li>
 </ul>
-</section><section id="picture-of-single-big-opaque-census-tract-on-a-satellite-image" class="slide level2">
-<h2>picture of single big opaque census tract on a satellite image</h2>
-</section><section id="same-tract-but-translucent-showing-uneven-development-patterns-underneath" class="slide level2">
-<h2>same tract but translucent, showing uneven development patterns underneath</h2>
+</section><section id="section-2" class="slide level2" data-background="images/tracts.png" data-background-size="contain">
+<h2></h2>
+</section><section id="section-3" class="slide level2" data-background="images/tract_isolated.png" data-background-size="contain">
+<h2></h2>
+</section><section id="section-4" class="slide level2" data-background="images/tract_translucent.png" data-background-size="contain">
+<h2></h2>
 <!--(speaker explains point is that we can't naively assign statistics to arbitrary geographies, we need special tools to do that)
 
 in the data module we provide tools to solve that problem in one of three ways:
@@ -122,25 +116,25 @@ in the data module we provide tools to solve that problem in one of three ways:
 <p>[picture of intersection operation that creates small units]</p>
 <!-- (speaker describes how we use spatial methods to develop reasonable estimates of the statistics within these units) -->
 </section></section>
-<section><section id="analytics-i-identifying-neighborhoods" class="titleslide slide level1"><h1>Analytics I: Identifying Neighborhoods</h1></section><section id="section-2" class="slide level2" data-background="images/chicago_school.gif">
+<section><section id="analytics-i-identifying-neighborhoods" class="title-slide slide level1"><h1>Analytics I: Identifying Neighborhoods</h1></section><section id="section-5" class="slide level2" data-background="images/chicago_school.gif">
 <h2></h2>
 <!-- http://beslter.org/landing-Baltimore-School-of-Ecology.html
 (speaker explains that the concept is 100 years old, but we have better statistics for identifying the same kinds of patterns but they are difficult to use. that's one of the voids we fill. we also let researchers examine how these lines blur and shift over time)
 -->
-</section><section id="section-3" class="slide level2" data-background="images/output-area-classification.png" data-background-size="1300px">
+</section><section id="section-6" class="slide level2" data-background="images/output-area-classification.png" data-background-size="1300px">
 <h2></h2>
 <!-- 
 Current Art: Geodemographics
 - use cluster analysis to derive neighborhoods
 - commercial example?
 -->
-</section><section id="section-4" class="slide level2" data-background="images/dc_clusters.png" data-background-size="900px">
+</section><section id="section-7" class="slide level2" data-background="images/dc_clusters.png" data-background-size="900px">
 <h2></h2>
-</section><section id="section-5" class="slide level2" data-background="images/saopaulo_clusters.png" data-background-size="1250px">
+</section><section id="section-8" class="slide level2" data-background="images/saopaulo_clusters.png" data-background-size="1250px">
 <h2></h2>
 <!-- will replace image -->
 </section></section>
-<section><section id="analytics-ii-measuring-neighborhood-change" class="titleslide slide level1"><h1>Analytics II: Measuring Neighborhood Change</h1></section><section id="temporal-geodemographics" class="slide level2">
+<section><section id="analytics-ii-measuring-neighborhood-change" class="title-slide slide level1"><h1>Analytics II: Measuring Neighborhood Change</h1></section><section id="temporal-geodemographics" class="slide level2">
 <h2>Temporal Geodemographics</h2>
 <!-- will replace image, first is static -->
 <div class="row">
@@ -187,14 +181,26 @@ Current Art: Geodemographics
 <p><img src="images/ward_sm_6.png" width=100% style="background:none; border:none; box-shadow:none;"></img></p>
 </section><section id="sequence-analysis" class="slide level2">
 <h2>Sequence Analysis</h2>
+</section><section id="section-9" class="slide level2" data-background="images/sequence_A.png" data-background-size="600px">
+<h2></h2>
+<!-- arbitrary first sequence -->
+</section><section id="section-10" class="slide level2" data-background="images/sequence_B.png" data-background-size="600px">
+<h2></h2>
+<!-- arbitrary second sequence -->
+</section><section id="section-11" class="slide level2" data-background="images/sequence_both.png" data-background-size="600px">
+<h2></h2>
+<!-- aligned -->
+</section><section id="section-12" class="slide level2" data-background="images/sequence_both_hamming.png" data-background-size="600px">
+<h2></h2>
+<!-- force-aligned -->
+</section><section id="section-13" class="slide level2" data-background="images/sequence_both_aligned.png" data-background-size="600px">
+<h2></h2>
+<!-- optimal aligned -->
+</section><section id="section-14" class="slide level2" data-background="images/sequence_both_aligned_annotated.png" data-background-size="600px">
+<h2></h2>
+<!-- annotated -->
 </section></section>
-<section><section id="section-6" class="titleslide slide level1" data-background="images/sequence_A.png" data-background-size="600px"><h1></h1></section></section>
-<section><section id="section-7" class="titleslide slide level1" data-background="images/sequence_B.png" data-background-size="600px"><h1></h1></section></section>
-<section><section id="section-8" class="titleslide slide level1" data-background="images/sequence_both.png" data-background-size="600px"><h1></h1></section></section>
-<section><section id="section-9" class="titleslide slide level1" data-background="images/sequence_both_hamming.png" data-background-size="600px"><h1></h1></section></section>
-<section><section id="section-10" class="titleslide slide level1" data-background="images/sequence_both_aligned.png" data-background-size="600px"><h1></h1></section></section>
-<section><section id="section-11" class="titleslide slide level1" data-background="images/sequence_both_aligned_annotated.png" data-background-size="600px"><h1></h1></section></section>
-<section><section id="vizualization" class="titleslide slide level1"><h1>Vizualization</h1></section><section id="section-12" class="slide level2" data-background="images/interface.png" data-background-size="1000px">
+<section><section id="vizualization" class="title-slide slide level1"><h1>Vizualization</h1></section><section id="section-15" class="slide level2" data-background="images/interface.png" data-background-size="1000px">
 <h2></h2>
 </section><section id="thanks" class="slide level2">
 <h2>Thanks</h2>
@@ -206,21 +212,28 @@ Current Art: Geodemographics
   </div>
 
   <script src="./reveal.js/lib/js/head.min.js"></script>
-  <script src="./reveal.js/js/reveal.js"></script>
+  <script src="./reveal.js/js/reveal.min.js"></script>
 
   <script>
 
-      // Full list of configuration options available at:
+      // Full list of configuration options available here:
       // https://github.com/hakimel/reveal.js#configuration
       Reveal.initialize({
+        controls: true,
+        progress: true,
+        history: true,
+        center: true,
+        theme: Reveal.getQueryHash().theme, // available themes are in /css/theme
+        transition: Reveal.getQueryHash().transition || 'default', // default/cube/page/concave/zoom/linear/fade/none
 
-        // Optional reveal.js plugins
+        // Optional libraries used to extend on reveal.js
         dependencies: [
           { src: './reveal.js/lib/js/classList.js', condition: function() { return !document.body.classList; } },
-          { src: './reveal.js/plugin/zoom-js/zoom.js', async: true },
-              { src: './reveal.js/plugin/notes/notes.js', async: true }
-        ]
-      });
+          { src: './reveal.js/plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } },
+          { src: './reveal.js/plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } },
+//          { src: './reveal.js/plugin/search/search.js', async: true, condition: function() { return !!document.body.classList; }, }
+//          { src: './reveal.js/plugin/remotes/remotes.js', async: true, condition: function() { return !!document.body.classList; } }
+]});
     </script>
-    </body>
+  </body>
 </html>
