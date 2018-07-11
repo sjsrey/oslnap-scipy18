@@ -145,10 +145,27 @@ Current Art: Geodemographics
 </div>
 
 ## Modeling Neighborhood Change
+- A dynamic perspective
+    - Transition analysis
+        - Markov Chains
+        - Spatial Markov Chains
+- A holistic perspective
+    - Sequence analysis
+        - Optimal matching
+        - Edit distance
+    - View each neighborhood trajectory as a whole
+
+## Transition analysis
+
+## Markov Chains
+
+<img src="images/ward_ap_m.png" width=100% style="background:none; border:none; box-shadow:none;"></img>
+
+## Spatial Markov Chains
+
+<img src="images/ward_sm_6.png" width=100% style="background:none; border:none; box-shadow:none;"></img>
 
 ## Sequence Analysis
-
-## show LA again
 
 #  {data-background="images/sequence_A.png" data-background-size="600px"}
 
