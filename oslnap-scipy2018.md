@@ -26,6 +26,26 @@
 
 ## {data-background="images/nyt2.png" data-background-size="1400px"}
 
+## Neighborhood Effects
+
+<div class="row text-center">
+<img src="images/predictivepostcode.png" width=60% align="center" style="background:none; border:none; box-shadow:none;"></img>
+</div>
+
+
+## Approaches to Neighborhoods
+
+- neighborhood effects
+  - massive literature
+    - predictive postcode 
+  - neighborhoods as "containers"
+- neighborhood dynamics
+  - process based models
+  - prescriptive models
+  - descriptive (exploratory models)
+
+
+
 
 ## (Temporal) Neighborhood Analysis Challenging
 
@@ -34,6 +54,21 @@
     - compositionally
     - geographically/geometrically
 
+## Neighborhoods in the Social Sciences
+
+- effects
+- dynamics
+- largely separate
+
+<!--(need to be brought together - exposure histories and latencies)
+-->
+
+## Project Goals
+
+- open urban data science
+- new space-time analytics for neighborhood dynamics
+- new spatially explicit approaches towards neighborhood dynamics
+- reproducible harmonization
 
 ## the Python ecosystem is ripe for neighborhood analysis
 

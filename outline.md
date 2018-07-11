@@ -7,6 +7,17 @@
 - gentrification
 - community development
 
+## Approaches to Neighborhoods
+
+- neighborhood effects
+  - massive literature
+    - predictive postcode 
+  - neighborhoods as "containers"
+- neighborhood dynamics
+  - process based models
+  - prescriptive models
+  - descriptive (exploratory models)
+
 
 ## (Temporal) Neighborhood Analysis Challenging
 
