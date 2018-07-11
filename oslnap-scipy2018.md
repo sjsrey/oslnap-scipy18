@@ -176,6 +176,7 @@ Current Art: Geodemographics
 
 # Vizualization
 
+
 ## {data-background="images/interface.png" data-background-size="1000px"}
 
 ## Thanks
