@@ -149,6 +149,35 @@ Current Art: Geodemographics
 - Spatial Markov-Based Approaches
 - Sequence Analysis
 
+
+## Sequence Analysis
+
+## show LA again
+
+#  {data-background="images/sequence_A.png" data-background-size="600px"}
+
+<!-- arbitrary first sequence -->
+
+#  {data-background="images/sequence_B.png" data-background-size="600px"}
+
+<!-- arbitrary second sequence -->
+
+#  {data-background="images/sequence_both.png" data-background-size="600px"}
+
+<!-- aligned -->
+
+# {data-background="images/sequence_both_hamming.png" data-background-size="600px"}
+
+<!-- force-aligned -->
+
+# {data-background="images/sequence_both_aligned.png" data-background-size="600px"}
+
+<!-- optimal aligned -->
+
+# {data-background="images/sequence_both_aligned_annotated.png" data-background-size="600px"}
+
+<!-- annotated -->
+
 # Viz Teaser?
 - solicit interest from collaborators?
 
