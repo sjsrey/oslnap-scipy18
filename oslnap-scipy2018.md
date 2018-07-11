@@ -22,9 +22,9 @@
 
 ## Neighborhoods Matter
 
-- neighborhood effects 
-- gentrification
-- community development
+## {data-background="images/nyt1.png" data-background-size="1400px"}
+
+## {data-background="images/nyt2.png" data-background-size="1400px"}
 
 
 ## (Temporal) Neighborhood Analysis Challenging
@@ -116,7 +116,7 @@ Current Art: Geodemographics
 -->
 
 
-## {data-background="images/saopaulo_clusters.png" data-background-size="1250px"}
+## {data-background="images/dc_clusters.png" data-background-size="900px"}
 
 
 ## {data-background="images/saopaulo_clusters.png" data-background-size="1250px"}
@@ -131,7 +131,7 @@ Current Art: Geodemographics
 <div class="row">
 <section class="fragment">
 <div class="col-md-6">
-<img src="images/animate.gif" width=100% style="background:none; border:none; box-shadow:none;"></img>
+<img src="images/ap_1980.png" width=100% style="background:none; border:none; box-shadow:none;"></img>
 </div>
 </section>
 
@@ -145,10 +145,6 @@ Current Art: Geodemographics
 </div>
 
 ## Modeling Neighborhood Change
-
-- Spatial Markov-Based Approaches
-- Sequence Analysis
-
 
 ## Sequence Analysis
 
@@ -178,8 +174,10 @@ Current Art: Geodemographics
 
 <!-- annotated -->
 
-# Viz Teaser?
-- solicit interest from collaborators?
+# Vizualization
+
+
+## {data-background="images/interface.png" data-background-size="1000px"}
 
 ## Thanks
 
