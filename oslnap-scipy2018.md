@@ -20,7 +20,7 @@
 
 
 
-## Neighborhoods Matter
+# Neighborhoods Matter
 
 ## {data-background="images/nyt1.png" data-background-size="1400px"}
 
@@ -46,17 +46,14 @@
 
 ## {data-background="images/predictivepostcode.png" data-background-size="contain"}
 
-
 ## {data-background="images/tapestry.png" data-background-size="contain"}
-
-
 
 
 
 ## (Temporal) Neighborhood Analysis Challenging
 - Goal: integrating neighborhood effects and dynamics perspectives
 - Challenge: What defines a neighborhood?
-  - how big is a neighborhood (spatial extent, population contained?)?
+  - how big is a neighborhood (spatial extent, population contained)?
   - "neighborhoods" change over time
      - compositionally (current focus)
      - geographically/geometrically (essentially ignored)
@@ -136,7 +133,8 @@ in the data module we provide tools to solve that problem in one of three ways:
 
 [picture of intersection operation that creates small units]
 
-<!-- (speaker describes how we use spatial methods to develop reasonable estimates of the statistics within these units) -->
+## {data-background="images/reibel2007.png" data-background-size="contain"}
+<!-- (speaker describes how we use spatial methods to develop reasonable estimates of the statistics within these units) image from Reibel and Agrawal 2007 -->
 
 
 # Analytics I:  Identifying Neighborhoods
@@ -230,10 +228,19 @@ Current Art: Geodemographics
 
 <!-- annotated -->
 
-# Vizualization
+# Visualization
 
 
 ## {data-background="images/interface.png" data-background-size="1000px"}
+
+
+
+## Next Steps
+
+- Parameter sweeps for longitudinal neighborhood analysis
+- Data services: cenpy, tigris
+- Reproducible urban data science: provenance for spatial analytical work flows
+- Interactive visualization
 
 ## Thanks
 
