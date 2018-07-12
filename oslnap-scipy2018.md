@@ -26,49 +26,50 @@
 
 ## {data-background="images/nyt2.png" data-background-size="1400px"}
 
-## Neighborhood Effects
 
-<div class="row text-center">
-<img src="images/predictivepostcode.png" width=60% align="center" style="background:none; border:none; box-shadow:none;"></img>
-</div>
-
-
-## Approaches to Neighborhoods
+## Approaches to Neighborhoods in the Social Sciences
 
 - neighborhood effects
   - massive literature
-    - predictive postcode 
   - neighborhoods as "containers"
 - neighborhood dynamics
   - process based models
   - prescriptive models
   - descriptive (exploratory models)
+  - neighborhoods as "process"
+- effects and dynamics literature largely separate
+
+
+## {data-background="images/effects.png" data-background-size='contain'}
+
+## {data-background="images/dynamicslit.png" data-background-size='contain'}
+
+## {data-background="images/predictivepostcode.png" data-background-size="contain"}
+
+
+## {data-background="images/tapestry.png" data-background-size="contain"}
+
 
 
 
 
 ## (Temporal) Neighborhood Analysis Challenging
-
-- what defines a neighborhood?
-- "neighborhoods" change over time
-    - compositionally
-    - geographically/geometrically
-
-## Neighborhoods in the Social Sciences
-
-- effects
-- dynamics
-- largely separate
+- Goal: integrating neighborhood effects and dynamics perspectives
+- Challenge: What defines a neighborhood?
+  - how big is a neighborhood (spatial extent, population contained?)?
+  - "neighborhoods" change over time
+     - compositionally (current focus)
+     - geographically/geometrically (essentially ignored)
 
 <!--(need to be brought together - exposure histories and latencies)
 -->
 
 ## Project Goals
 
-- open urban data science
+- new spatially explicit approaches towards neighborhood identification
 - new space-time analytics for neighborhood dynamics
-- new spatially explicit approaches towards neighborhood dynamics
 - reproducible harmonization
+- open urban data science
 
 ## the Python ecosystem is ripe for neighborhood analysis
 
